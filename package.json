@@ -11,7 +11,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"x4build": "lastest"
+		"x4build": "latest"
 	},
 	"dependencies": {
 		"x4js": "^1"
