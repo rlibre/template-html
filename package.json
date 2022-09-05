@@ -14,6 +14,6 @@
 		"x4build": "latest"
 	},
 	"dependencies": {
-		"x4js": "^1"
+		"x4js": "latest"
 	}
 }
