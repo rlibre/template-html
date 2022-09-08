@@ -2,7 +2,7 @@
 	"name": "template",
 	"version": "1.0.0",
 	"description": "x4js template",
-	"main": "index.js",
+	"main": "src/index.html",
 	"scripts": {
 		"build-dev": "x4build debug serve hmr",
 		"build-prod": "x4build release"
