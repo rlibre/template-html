@@ -10,7 +10,7 @@ let app = new Application( {
 // create the main frame
 let frame = new VLayout( {
     content: [
-        new Label( { text: "Your app is running" } ) // a small button
+        new Label( { text: "Welcome ! Your X4 application is running" } )
     ]
 });
 
