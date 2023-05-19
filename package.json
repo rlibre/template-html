@@ -10,5 +10,10 @@
 	},
 	"dependencies": {
 		"x4js": "latest"
+	},
+	"x4build": {
+		"postBuild": [
+			"@copy ${srcdir}/src/assets ${outdir}/assets"
+		]
 	}
 }
