@@ -1,5 +1,5 @@
 // import required elements
-import { Application, VLayout, Label } from 'x4js'
+import { Application, VLayout, Label, installHMR } from 'x4js'
 
 // create the application
 let app = new Application( {
@@ -16,3 +16,8 @@ let frame = new VLayout( {
 
 // define it as the app main frame.
 app.mainView = frame;
+
+declare const DEBUG;
+if( DEBUG ) {
+	installHMR()	
+}
