@@ -4,8 +4,6 @@
 	"description": "x4js template",
 	"main": "src/index.html",
 	"scripts": {
-		"build-dev": "x4build build --type html --watch --serve",
-        	"build-release": "x4build build --type html --release"
 	},
 	"devDependencies": {
 		"x4build": "latest"
